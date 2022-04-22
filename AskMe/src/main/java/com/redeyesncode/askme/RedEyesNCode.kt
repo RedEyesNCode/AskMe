@@ -1,0 +1,8 @@
+package com.redeyesncode.askme
+
+class RedEyesNCode {
+
+    //DEFINING  THE RUNTIME PERMISSION AND THE OTHER FUNCTIONS AND INTERFACES REALTED TO PERMISSIONS HERE !
+
+
+}
