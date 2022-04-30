@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        style="@style/MyRounded.MaterialComponents.MaterialAlertDialog"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/mainLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/MyRounded.MaterialComponents.MaterialAlertDialog"
+            android:orientation="vertical"
+            android:background="@color/yellow">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/yellow"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="46dp"
+                        android:background="@color/yellow"
+                        android:padding="5dp"
+                        android:src="@drawable/warning"></ImageView>
+                    <TextView
+                        android:id="@+id/successTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Warning !"
+                        android:gravity="center_horizontal"
+                        android:padding="12sp"
+                        android:textSize="16sp"
+                        android:background="@color/yellow"
+                        android:textColor="@color/black">
+                    </TextView>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6sp"
+                android:orientation="vertical"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/tvSetText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dialog Box Message Text Here !"
+                    android:gravity="center_horizontal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black">
+                </TextView>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="6dp"
+                android:orientation="horizontal"
+                android:background="@color/white">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/btnOk"
+                        android:layout_width="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/background_button_dialog"
+                        android:paddingHorizontal="25dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:paddingVertical="5dp"
+                            android:text="OK"
+                            android:textColor="@color/black"
+                            android:textSize="11dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/btnCancel"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@id/btnOk"
+                        android:layout_gravity="center"
+                        android:background="@drawable/background_button_dialog"
+                        android:paddingHorizontal="25dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:paddingVertical="5dp"
+                            android:text="CANCEL"
+                            android:textColor="@color/black"
+                            android:textSize="11dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
